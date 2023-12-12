@@ -5,5 +5,6 @@ public class Main {
     static int[] p1={3,4,5};
     public static void main(String[] args){
         PythagoreanTriple pythagoreanTriple = new PythagoreanTriple();
+        System.out.println(pythagoreanTriple.pythagoreanTriple(p1));
     }
 }
