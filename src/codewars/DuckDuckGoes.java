@@ -1,14 +1,11 @@
 package codewars;
 
 public class DuckDuckGoes {
-    public static Player duckDuckGoose(Player[] players, int goose) {
-        Player duckDuckCome = "";
+    public static String duckDuckGoose(Player[] players, int goose) {
         while (goose > players.length){
             goose = goose - players.length;
         }
-             duckDuckCome = players[(goose - 1)];
-
-        return duckDuckCome;
+        return players[goose - 1].name;
     }
 
 }
